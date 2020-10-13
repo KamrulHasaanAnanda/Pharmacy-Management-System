@@ -1,0 +1,8 @@
+﻿CREATE TABLE `pharmacy management`.`MedicineList` (
+`Serial` INT( 20 ) NOT NULL ,
+`Name` VARCHAR( 20 ) NOT NULL ,
+`TotalQuantity` INT( 20 ) NOT NULL ,
+`Sell` INT( 20 ) NOT NULL ,
+`Price` INT( 20 ) NOT NULL ,
+PRIMARY KEY ( `Serial` )
+)

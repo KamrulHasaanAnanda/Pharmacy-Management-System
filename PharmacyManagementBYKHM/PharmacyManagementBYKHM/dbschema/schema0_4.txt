@@ -1,0 +1,7 @@
+﻿CREATE TABLE `pharmacy management`.`sales` (
+`id` INT( 20 ) NOT NULL ,
+`sale_date` DATE NOT NULL ,
+`medicine` VARCHAR( 50 ) NOT NULL ,
+`quantity` INT( 20 ) NOT NULL ,
+PRIMARY KEY ( `id` )
+);
